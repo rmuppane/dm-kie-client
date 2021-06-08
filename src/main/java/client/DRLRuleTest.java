@@ -18,10 +18,10 @@ import com.cs.loanapprovaldrl.LoanApplication;
 public class DRLRuleTest extends AbstractKieServerConnector {
 
 	// Remote deployment
-    // private static final String CONTAINER_ID = "LoanApprovalDRL_1.0.0-SNAPSHOT";
+    private static final String CONTAINER_ID = "LoanApprovalDRL_1.0.0-SNAPSHOT";
     
     // Spring boot
-    private static final String CONTAINER_ID = "LoanApprovalDRL-1.0.0-SNAPSHOT";
+   // private static final String CONTAINER_ID = "LoanApprovalDRL1.0.0-SNAPSHOT";
     
     private static final Logger log = LoggerFactory.getLogger(DRLRuleTest.class);
 

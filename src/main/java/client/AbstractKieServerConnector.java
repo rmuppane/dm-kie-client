@@ -19,14 +19,14 @@ public abstract class AbstractKieServerConnector {
 
 	public AbstractKieServerConnector() {
 		// Remote kie-server 
-		/*this.url = "http://localhost:8080/kie-server/services/rest/server";
+		this.url = "http://localhost:8080/kie-server/services/rest/server";
 		this.username = "rhdmAdmin";
-		this.pwd = "Pa$$w0rd";*/
+		this.pwd = "Pa$$w0rd";
 		
 		// Springboot kie-server 
-		this.url = "http://localhost:8090/rest/server";
+		/*this.url = "http://localhost:8090/rest/server";
 		this.username = "user";
-		this.pwd = "user";
+		this.pwd = "user";*/
 		
 		KieServicesConfiguration config = KieServicesFactory
 						.newRestConfiguration(url, username, pwd);

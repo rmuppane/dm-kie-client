@@ -10,10 +10,10 @@ import org.slf4j.LoggerFactory;
 public class DMNTest extends AbstractKieServerConnector {
 
 	// Remote deployment
-    //private static final String CONTAINER_ID = "LoanApprovalDMN_1.0.0-SNAPSHOT";
+    private static final String CONTAINER_ID = "LoanApprovalDMN_1.0.0-SNAPSHOT";
 	
 	// Spring boot
-    private static final String CONTAINER_ID = "LoanApprovalDMN-1.0.0-SNAPSHOT";
+    // private static final String CONTAINER_ID = "LoanApprovalDMN-1.0.0-SNAPSHOT";
     
     private static final Logger log = LoggerFactory.getLogger(DMNTest.class);
 
